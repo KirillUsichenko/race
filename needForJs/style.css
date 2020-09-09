@@ -4,5 +4,7 @@
 .car {
     width: 50px;
     height: 100px;
-    background: red;
+    background: url(../needForJs/images/redCar.png);
+    background-size: cover;
+    background-position: center;
 }
