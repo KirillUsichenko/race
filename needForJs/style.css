@@ -26,7 +26,9 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    /* background: url(../needForJs/images/175045.jpg) no-repeat;
+    background-size: cover; */
 }
 ol, ul {
 	list-style: none;
@@ -74,7 +76,11 @@ table {
     position: relative;
     margin: auto;
     background-color: #222;
+    background: url(../needForJs/images/asphalt.jfif);
+    background-size: cover;
     overflow: hidden;
+
+
 }
 
 .line {
@@ -83,4 +89,43 @@ table {
     height: 45px;
     background-color: #ffffff;
     left: 145px;
+}
+
+.start{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 2rem 0;
+    text-align: center;
+    z-index: 200;
+    color: #fff;
+    font-size: 1.5rem;
+    background: black;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 700;
+    border-bottom: 2px solid #c4c4c4;
+}
+.score{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+    padding: 2rem 0;
+    z-index: 100;
+    color: #c0b16e;
+    font-size: 1rem;
+    background: black;
+    font-family: sans-serif;
+    font-weight: 500;
+    border-bottom: 2px solid #c4c4c4;
+    text-align: center;
+    
+}
+.body{
+   
+    background: url(../needForJs/images/175045.jpg) no-repeat;
+    background-size: cover;
 }
